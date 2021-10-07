@@ -1,8 +1,7 @@
 level score: 20
-Написать программу, которая проверяет число на четность
+Написать программу, которая проверяет число на четность............
 
-print('input number: ')
-a = int(input())
+a = int(input('input number: '))
 if a % 2 == 0:
     print('chet!')
 elif a % 2 == 1:
