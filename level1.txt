@@ -1,0 +1,14 @@
+level score: 10
+Поток деталей разной массы от 10 до 100 попадают к рабочим. Детали массой менее 50 обрабатываются первым рабочим в течение 16-20 ед.вр. и покидают систему, остальные идут ко второму рабочему, обрабатываются в течение 24-30 ед.вр. и покидают систему.
+
+GENERATE 5,1
+ASSIGN PARAM,(UNIFORM(1,10,100))
+TEST L P$PARAM,50,XXY
+SEIZE WORK
+ADVANCE 18,2
+RELEASE WORK
+TRANSFER ,EX
+XXY SEIZE WORK1
+ADVANCE 27,3
+RELEASE WORK1
+EX TERMINATE 1
