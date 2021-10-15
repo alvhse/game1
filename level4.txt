@@ -2,7 +2,8 @@ level score: 50
 Написать программу для решения квадратного уравнения
 
 import math
-a, b, c = float(input("a = ")), float(input("b = ")), float(input("c = "))
+a, b, c = input("a = "), input("b = "), input("c = ")
+a, b, c = float(a), float(b), float(c)
 discr = b ** 2 - 4 * a * c
 print("Discriminant D = %.2f" % discr)
 if discr > 0:
