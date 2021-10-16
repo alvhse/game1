@@ -1,11 +1,11 @@
 level score: 10
 Поток деталей поступает к одному рабочему, который его обрабатывает.
 
-tbl qtable och,0,1,100
-generate 7,2
-queue och
-seize work
-depart och
-advance 15,5
-release work
-terminate 1
+TBL QTABLE OCH,0,1,100
+GENERATE 7,2
+QUEUE OCH
+SEIZE WORK
+DEPART OCH
+ADVANCE 15,5
+RELEASE WORK
+TERMINATE 1
