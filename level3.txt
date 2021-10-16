@@ -1,5 +1,14 @@
-﻿level score: 10
-Написать программу, которая печатает введённое число
+level score: 30
+Поток деталей разной массы от 10 до 100 попадают к рабочим. Детали массой менее 50 обрабатываются первым рабочим в течение 16-20 ед.вр. и покидают систему, остальные идут ко второму рабочему, обрабатываются в течение 24-30 ед.вр. и покидают систему.
 
-a = int(input('input number: '))
-print(a)
+generate 5,1
+assign param,(uniform(1,10,100))
+test l p$param,50,xxy
+seize work
+advance 18,2
+release work
+transfer ,ex
+xxy seize work1
+advance 27,3
+release work1
+ex terminate 1

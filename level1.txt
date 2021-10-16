@@ -1,5 +1,11 @@
-﻿level score: 10
-Написать программу, которая печатает введённое число
+level score: 10
+Поток деталей поступает к одному рабочему, который его обрабатывает.
 
-a = int(input('input number: '))
-print(a)
+tbl qtable och,0,1,100
+generate 7,2
+queue och
+seize work
+depart och
+advance 15,5
+release work
+terminate 1

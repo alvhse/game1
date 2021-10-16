@@ -1,5 +1,11 @@
-﻿level score: 10
-Написать программу, которая печатает введённое число
+level score: 20
+Поток деталей, состоящий из деталей типа K и L, поступает к рабочему на обработку. Деталей K - 60%. Детали типа K обрабатываются в течение в 2 раза дольше, чем детали типа L.
 
-a = int(input('input number: '))
-print(a)
+generate 7,2
+assign abc,2
+transfer 0.6,,xyz
+assign abc,1
+xyz seize work
+advance 10#p$abc
+release work
+terminate 1
