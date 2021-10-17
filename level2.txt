@@ -2,10 +2,4 @@ level score: 20
 Поток деталей, состоящий из деталей типа K и L, поступает к рабочему на обработку. Деталей K - 60%. Детали типа K обрабатываются в течение в 2 раза дольше, чем детали типа L.
 
 GENERATE 7,2
-ASSIGN ABC,2
-TRANSFER 0.6,,XYZ
-ASSIGN ABC,1
-XYZ SEIZE WORK
-ADVANCE 10#P$ABC
-RELEASE WORK
 TERMINATE 1
