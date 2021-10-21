@@ -1,11 +1,8 @@
 level score: 10
-Поток деталей поступает к одному рабочему, который его обрабатывает.
+Определите максимальное значение чисел в списке, состоящем из натуральных чисел.
 
-TBL QTABLE OCH,0,1,100
-GENERATE 7,2
-QUEUE OCH
-SEIZE WORK
-DEPART OCH
-ADVANCE 15,5
-RELEASE WORK
-TERMINATE 1
+a = [4, 8, 2, 6, 1]
+s = 0
+for i in a:
+  if i > s:
+    s = i
